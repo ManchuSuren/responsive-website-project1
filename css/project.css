@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/* You must use a DIFFERENT FONT THAT THIS ONE as your webfont */
+
+/*************************************************
+            DEFAULTS
+*************************************************/
+*{
+    padding: 5;
+    margin: 10;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 5%);
+   
+    
+}
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+html{
+    font-size: 16px;
+    font-family: lato, open-sans, arial, sans-serif;
+    /* change this font stack to your own choices */
+    
+    line-height: 1.5;
+    background-color: hsl(0, 3%, 67%);
+    
+}
+p{
+    
+}
+a{
+    
+}
+ul{
+    
+}
+ol{
+    
+}
+li{
+    
+}
+img{
+    width: 25%;
+}
+
+/*************************************************
+            HEADER
+*************************************************/
+header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: space-between;
+    align-content: space-around;
+    padding:1rem 2rem;
+    background-image: url("../img/header.jpg");
+    
+    
+    
+}
+header > h1{
+    
+}
+header > h2{
+    
+}
+/*************************************************
+            NAVMENU
+*************************************************/
+nav{
+     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding:1rem 2rem;
+}
+nav > a,
+nav > a:visited,
+nav > a:link{
+    
+}
+nav > a:active,
+nav > a:focus,
+nav > a:hover{
+    
+}
+
+/*************************************************
+            MAIN CONTENT
+*************************************************/
+main{
+    padding:1rem 2rem;
+}
+section{
+    
+}
+section p{
+    
+}
+section p img{
+    
+}
+
+/*************************************************
+            FOOTER
+*************************************************/
+footer{
+    padding:1rem 2rem;
+     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: space-between;
+    align-content: space-around;
+    
+}
+.foot nav{
+    
+}
+.foot section{
+    
+}
+.foot dl{
+    
+}
+.foot dt{
+    
+}
+.foot dd{
+    
+}
+.foot dd a,
+.foot dd a:visited{
+    
+}
+.foot dd a:active,
+.foot dd a:focus,
+.foot dd a:hover{
+    
+}
+/*************************************************
+            MEDIA QUERIES for layout
+*************************************************/
+@media (max-width: 599px){
+    font-size: 8px;
+    background-color: hsl(0, 6%, 70%);
+    main {
+    flex-direction: column;
+  }
+}
+@media (min-width: 600px) and (max-width:999px){
+    font-size: 12px;
+    background-color: hsl(0, 4%, 50%);
+    main {
+    flex-direction: column;
+  }
+    
+}
+@media (min-width: 1000px){
+    font-size: 16px;
+    background-color: hsl(0, 5%, 21%);
+    
+    
+}
